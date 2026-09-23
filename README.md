@@ -41,6 +41,11 @@ PRACTICAL-5
 summary
 Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient (O(N \times C)) time complexity and O(N) space complexity (where N is the target amount and C is coin types) conclusion Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
 
+PRATICAL-6
+
+Summary
+The Chain Matrix Multiplication problem was solved using Dynamic Programming. The main objective is to find the most efficient order of multiplying a sequence of matrices so that the total number of scalar multiplications is minimized. Since matrix multiplication is associative, different parenthesizations can produce the same final result but require different numbers of operations. Dynamic Programming stores the results of smaller matrix chains and uses them to solve larger chains efficiently.
+
    PRACTICAL-7
    
 summary 
