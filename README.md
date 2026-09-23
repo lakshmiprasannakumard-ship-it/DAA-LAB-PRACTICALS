@@ -51,3 +51,8 @@ The Chain Matrix Multiplication problem was solved using Dynamic Programming. Th
 summary 
 Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient (O(N \times C)) time complexity and O(N) space complexity (where N is the target amount and C is coin types) conclusion Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
 
+PRATICAL-8
+
+Summary:
+BFS (Breadth-First Search) and DFS (Depth-First Search) are graph traversal algorithms used to systematically visit the nodes of a graph. BFS explores the graph level by level using a queue, whereas DFS explores one path as deeply as possible using recursion or a stack. Both algorithms can be implemented efficiently with a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. They are widely used in applications such as path finding, network traversal, and graph analysis.
+
